@@ -63,6 +63,7 @@ class SessionController {
                     $_SESSION['username'] = $username;
                     // Redirigir al usuario a su perfil o a la página de inicio
                     // header("Location: perfil.php");
+                    echo "success"; // Indicamos éxito en la autenticación
                 } else {
                     // Usuario o contraseña incorrectos
                     echo "Nombre de usuario o contraseña incorrectos.";
